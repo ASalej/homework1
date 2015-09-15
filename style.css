@@ -1,0 +1,86 @@
+body {
+    text-align: center;
+    font-family: "Verdana";
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+ul li a {
+    text-decoration: none;
+    color: #cdddea;
+}
+
+nav{
+    position: fixed;
+    display: block;
+    width: 100%;
+    background-color: #0033CC;
+    top: 0px;
+}
+nav ul li{
+    padding: 0 15px;
+}
+nav ul li a{
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#about{
+     margin: 100px 0 0 0;
+}
+
+#photos{
+    margin: 20px 0 0 0;
+}
+#photos ul{
+    font-size:0;
+}
+#photos ul li{
+    display:inline-block;
+}
+#photos .first_ul li img{
+    display: inline-block;
+    height: 200px;
+    margin:0;
+    padding:0;
+}
+#photos .second_ul li img{
+    display: inline-block;
+    height: 429px;
+}
+.links {
+    border: none;
+    height: 50px;
+}
+.links li {
+    display: inline-block;
+    background-color: #0033CC;
+    margin: 5px 0px 0px 5px;
+    padding: 10px 10px 0px;
+    border-radius: 35px;
+    border-color: #fa95a4;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.links li:target .links li a img {
+    height: 70px;
+}
+
+table { 
+    width: 100%; /* Ширина таблицы */
+    border: 4px double #0033CC; /* Рамка вокруг таблицы */
+    border-collapse: collapse; /* Отображать только одинарные линии */
+   }
+   
+   
+footer{
+    background-color: #003399;
+    width: 100%;
+    padding: 20px 0;
+}
+footer p{
+    color: #fff;
+}
