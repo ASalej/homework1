@@ -2,6 +2,9 @@ body {
     text-align: center;
     font-family: "Verdana";
 }
+#about, #photos, #links, #education, #form{
+    padding: 10px 0 20px 0;
+}
 
 ul li {
     list-style-type: none;
@@ -26,9 +29,12 @@ nav ul li a{
     text-transform: uppercase;
     color: #fff;
 }
+nav ul li a:hover{
+    color: yellow;
+}
 
 #about{
-     margin: 100px 0 0 0;
+     margin: 60px 0 0 0;
 }
 
 #photos{
@@ -43,39 +49,65 @@ nav ul li a{
 #photos .first_ul li img{
     display: inline-block;
     height: 200px;
-    margin:0;
-    padding:0;
 }
 #photos .second_ul li img{
     display: inline-block;
     height: 429px;
 }
-.links {
-    border: none;
-    height: 50px;
+#photos .third_ul li img{
+    display: inline-block;
+    height: 217px;
 }
+.links {
+    border-bottom: 5px solid #0033CC;
+    height: 50px;
+    
+} /*
 .links li {
     display: inline-block;
-    background-color: #0033CC;
+   background-color: #0033CC;
     margin: 5px 0px 0px 5px;
     padding: 10px 10px 0px;
-    border-radius: 35px;
+    
     border-color: #fa95a4;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
+}*/
+.links li a{
+    text-decoration: none;
+    border: none;
 }
-
-.links li:target .links li a img {
+ .links li a img {
     height: 70px;
+    border: 6px solid #0033CC;
+    border-radius: 80px;
 }
 
 table { 
-    width: 100%; /* Ширина таблицы */
-    border: 4px double #0033CC; /* Рамка вокруг таблицы */
-    border-collapse: collapse; /* Отображать только одинарные линии */
+    width: 100%; 
+    border: 4px double #0033CC; 
    }
-   
-   
+
+#form{
+    background-color: #CCFFCC;
+    margin: 0px 0 0 0;
+}
+form label input, textarea{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    width: 180px;
+}
+input[type="submit"]{
+    border: none;
+    border-radius: 3px;
+    padding: 15px 50px;
+    margin: 5px 0 0 50px;
+    background-color: #0033CC;
+    color: white;
+}
+
 footer{
     background-color: #003399;
     width: 100%;
