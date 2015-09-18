@@ -1,6 +1,8 @@
 body {
     text-align: center;
     font-family: "Verdana";
+    margin: 0;
+    padding: 0;
 }
 #about, #photos, #links, #education, #form{
     padding: 10px 0 20px 0;
@@ -21,6 +23,7 @@ nav{
     width: 100%;
     background-color: #0033CC;
     top: 0px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 nav ul li{
     padding: 0 15px;
@@ -62,17 +65,7 @@ nav ul li a:hover{
     border-bottom: 5px solid #0033CC;
     height: 50px;
     
-} /*
-.links li {
-    display: inline-block;
-   background-color: #0033CC;
-    margin: 5px 0px 0px 5px;
-    padding: 10px 10px 0px;
-    
-    border-color: #fa95a4;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-}*/
+} 
 .links li a{
     text-decoration: none;
     border: none;
@@ -97,7 +90,7 @@ form label input, textarea{
     padding: 10px;
     border-radius: 5px;
     margin: 5px;
-    width: 180px;
+    width: 250px;
 }
 input[type="submit"]{
     border: none;
